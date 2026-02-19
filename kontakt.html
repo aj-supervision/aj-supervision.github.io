@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt – Andreas Janusewski Supervision Wiesbaden</title>
+  <meta name="description" content="Nehmen Sie Kontakt auf – unverbindliches Erstgespräch kostenlos. Supervision in Wiesbaden und online. Telefon: 0178 602 92 83.">
+  <link rel="canonical" href="https://aj-supervision.de/kontakt.html">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header class="header">
+  <div class="container">
+    <div class="header__inner">
+      <a href="index.html" class="header__logo">
+        <img src="images/logo.png" alt="AJ Supervision Logo" class="header__logo-img">
+        <div class="header__logo-text">
+          <span class="header__logo-name">Andreas Janusewski</span>
+          <span class="header__logo-sub">Supervision</span>
+        </div>
+      </a>
+      <button class="burger" aria-label="Menü öffnen" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" role="navigation">
+        <a href="supervision.html" class="nav__link">Was ist Supervision?</a>
+        <a href="angebote.html" class="nav__link">Angebote</a>
+        <a href="ueber-mich.html" class="nav__link">Über mich</a>
+        <a href="kontakt.html" class="nav__link nav__link--cta active">Kontakt</a>
+      </nav>
+    </div>
+  </div>
+</header>
+
+<div class="page-hero">
+  <div class="container">
+    <span class="page-hero__tag">Unverbindlich &amp; kostenlos</span>
+    <h1 class="page-hero__title">Kontakt aufnehmen</h1>
+    <p class="page-hero__subtitle">Das Erstgespräch ist kostenlos und unverbindlich. Ich freue mich auf Ihre Anfrage.</p>
+  </div>
+</div>
+
+<main>
+<section class="section">
+  <div class="container">
+    <div class="contact-grid">
+
+      <!-- FORM -->
+      <div>
+        <h2 style="margin-bottom:0.5rem;">Schreiben Sie mir</h2>
+        <div class="divider divider--left"></div>
+        <p style="color:var(--text-light); margin-bottom:2rem;">Ich melde mich in der Regel innerhalb von 24 Stunden bei Ihnen.</p>
+
+        <div class="form-success" id="form-success">
+          ✓ Ihre Nachricht wurde gesendet. Ich melde mich bald bei Ihnen!
+        </div>
+
+        <form id="contact-form" action="https://formspree.io/f/mdallngb" method="POST" novalidate>
+          <div class="grid-2" style="gap:1rem;">
+            <div class="form-group">
+              <label class="form-label" for="name">Name *</label>
+              <input class="form-input" type="text" id="name" name="name" required placeholder="Ihr Name">
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="email">E-Mail *</label>
+              <input class="form-input" type="email" id="email" name="email" required placeholder="ihre@email.de">
+            </div>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="phone">Telefon (optional)</label>
+            <input class="form-input" type="tel" id="phone" name="phone" placeholder="0XXX / XXX XX XX">
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="thema">Ich interessiere mich für *</label>
+            <select class="form-select" id="thema" name="thema" required>
+              <option value="">Bitte wählen …</option>
+              <option value="Einzelsupervision">Einzelsupervision</option>
+              <option value="Leitungssupervision">Leitungssupervision</option>
+              <option value="Gruppensupervision">Gruppensupervision</option>
+              <option value="Teamsupervision">Teamsupervision</option>
+              <option value="Träger / Organisation">Supervision für Träger / Organisation</option>
+              <option value="Online-Supervision">Online-Supervision</option>
+              <option value="Sonstiges">Sonstiges / Erstgespräch</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="nachricht">Nachricht *</label>
+            <textarea class="form-textarea" id="nachricht" name="nachricht" required placeholder="Beschreiben Sie kurz Ihre Situation oder Ihr Anliegen …"></textarea>
+          </div>
+          <div class="form-group">
+            <label style="display:flex; gap:0.6rem; align-items:flex-start; cursor:pointer; font-size:0.85rem; color:var(--text-light);">
+              <input type="checkbox" name="datenschutz" required style="margin-top:0.2rem; flex-shrink:0;">
+              Ich habe die <a href="datenschutz.html" target="_blank">Datenschutzerklärung</a> gelesen und stimme der Verarbeitung meiner Daten zur Bearbeitung meiner Anfrage zu. *
+            </label>
+          </div>
+          <button type="submit" class="btn btn--primary" style="width:100%;">Nachricht senden</button>
+          <p class="form-note" style="text-align:center; margin-top:0.75rem;">* Pflichtfelder. Ihre Daten werden vertraulich behandelt.</p>
+        </form>
+      </div>
+
+      <!-- KONTAKTINFO -->
+      <div>
+        <h2 style="margin-bottom:0.5rem;">Direkt erreichen</h2>
+        <div class="divider divider--left"></div>
+        <p style="color:var(--text-light); margin-bottom:2rem;">Sie erreichen mich telefonisch oder per E-Mail – ich freue mich auf Ihre Kontaktaufnahme.</p>
+
+        <div class="contact-info">
+          <div class="contact-info__item">
+            <div class="contact-info__icon">📞</div>
+            <div>
+              <div class="contact-info__label">Telefon</div>
+              <a href="tel:+491786029283" class="contact-info__value">0178 / 602 92 83</a>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__icon">✉️</div>
+            <div>
+              <div class="contact-info__label">E-Mail</div>
+              <a href="mailto:kontakt@aj-supervision.de" class="contact-info__value">kontakt@aj-supervision.de</a>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__icon">📍</div>
+            <div>
+              <div class="contact-info__label">Standort</div>
+              <div class="contact-info__value">Rauenthaler Straße 4<br>65197 Wiesbaden</div>
+            </div>
+          </div>
+          <div class="contact-info__item">
+            <div class="contact-info__icon">💻</div>
+            <div>
+              <div class="contact-info__label">Online-Supervision</div>
+              <div class="contact-info__value">Alle Angebote auch per Video möglich</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top:2.5rem; padding:1.5rem; background:var(--surface); border-radius:var(--radius); border-left:3px solid var(--secondary);">
+          <h4 style="margin-bottom:0.5rem;">Erstgespräch</h4>
+          <p style="font-size:0.9rem; color:var(--text-light); margin:0;">Das Erstgespräch (ca. 20–30 Min.) ist kostenlos und unverbindlich. Wir klären gemeinsam, ob und wie eine Zusammenarbeit sinnvoll ist.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer">
+  <div class="container">
+    <div class="footer__grid">
+      <div>
+        <div class="footer__brand">Andreas Janusewski – Supervision</div>
+        <p class="footer__desc">Professionelle Reflexionsräume für Fachkräfte, Teams und Organisationen in der Sozialen Arbeit. Standort Wiesbaden, auch online.</p>
+      </div>
+      <div>
+        <div class="footer__heading">Navigation</div>
+        <ul class="footer__links">
+          <li><a href="index.html">Startseite</a></li>
+          <li><a href="supervision.html">Was ist Supervision?</a></li>
+          <li><a href="angebote.html">Angebote &amp; Honorare</a></li>
+          <li><a href="ueber-mich.html">Über mich</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div>
+        <div class="footer__heading">Kontakt</div>
+        <ul class="footer__links">
+          <li><a href="mailto:kontakt@aj-supervision.de">kontakt@aj-supervision.de</a></li>
+          <li><a href="tel:+491786029283">0178 / 602 92 83</a></li>
+        </ul>
+        <div style="margin-top:1.5rem;">
+          <div class="footer__heading">Rechtliches</div>
+          <ul class="footer__links">
+            <li><a href="impressum.html">Impressum</a></li>
+            <li><a href="datenschutz.html">Datenschutz</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Andreas Janusewski – Supervision, Wiesbaden</span>
+      <span>Kleinunternehmer gem. §19 UStG</span>
+    </div>
+  </div>
+</footer>
+<script src="js/main.js"></script>
+</body>
+</html>
