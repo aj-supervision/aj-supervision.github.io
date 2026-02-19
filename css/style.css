@@ -20,7 +20,7 @@
   --text:       #2E2E2E;
   --text-light: #5a5a5a;
   --bg:         #EFEDE8;
-  --surface:    #F7F5F0;
+  --surface:    #EFEDE8;
   --white:      #FFFFFF;
   --border:     #D5D0C8;
   --max-w:      1100px;
@@ -35,7 +35,7 @@ html { scroll-behavior: smooth; }
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   color: var(--text);
-  background: var(--bg);
+  background: #EFEDE8;
   line-height: 1.75;
   font-size: 1rem;
 }
@@ -277,7 +277,7 @@ blockquote p {
 .cta-band h2 { color: white; margin-bottom: 1rem; }
 .cta-band p { color: rgba(255,255,255,0.8); max-width: 500px; margin: 0 auto 2.5rem; font-size: 1.05rem; }
 .btn--white { background: white; color: var(--primary); border-color: white; }
-.btn--white:hover { background: var(--bg); color: var(--primary); }
+.btn--white:hover { background: #EFEDE8; color: var(--primary); }
 .btn--outline-white { background: transparent; color: white; border-color: rgba(255,255,255,0.6); }
 .btn--outline-white:hover { border-color: white; }
 
