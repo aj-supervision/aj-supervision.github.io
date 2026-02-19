@@ -1,15 +1,18 @@
 # Ausstehende Website-Änderungen
-Stand: 19.02.2026 – warten auf Andy's "push"-Kommando
+Stand: 19.02.2026 – alles erledigt und gepusht ✅
 
-1. Leitungssupervision → **180 €**
-2. Kontaktformular: Checkbox-Text Layout fixen (Zeilenumbruch)
-3. Kontaktseite: "Sie erreichen mich telefonisch..." entfernen – nur E-Mail
-4. "Online möglich" ausdünnen – nur 1–2x erwähnen, nicht überall
-5. ⏳ Standort Wiesbaden → neuer Ort kommt noch (Andy zieht bald weg)
-6. Zitat ändern → „Supervision schafft Raum für das, wofür im Arbeitsalltag kein Raum ist: echte Reflexion."
-7. Neue Autorität: "nach Haim Omer" → "in der Kinder- und Jugendhilfe"
-8. "pro Stunde" → "pro 60 Min." (überall auf der Seite)
-9. Weiterbildung Traumapädagogik & traumasensible Arbeit → entfernen
+## Erledigt
+- [x] Leitungssupervision → 180 €
+- [x] Kontaktformular: Checkbox-Text gefixt
+- [x] Kontaktseite: "telefonisch" entfernt
+- [x] "Online möglich" ausgedünnt
+- [x] Zitat → "echte Reflexion"
+- [x] Neue Autorität: "in der Kinder- und Jugendhilfe"
+- [x] "pro Stunde" → "pro 60 Min."
+- [x] Traumapädagogik entfernt
+- [x] Header: Logo links / Nav rechts weiter außen
 
-## Nächstes Projekt (morgen)
-- Instagram Content-Strategie: Themenplan 4 Wochen, Post-Vorlagen, Hashtags
+## Offen
+- [ ] ⏳ Standort Wiesbaden → neuer Ort kommt noch
+- [ ] Angebotsseite überarbeiten (Andy noch nicht zufrieden)
+- [ ] Instagram Content-Strategie (Projekt ab morgen)
