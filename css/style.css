@@ -258,7 +258,7 @@ ul { list-style: none; }
   color: #2e7d32; margin-bottom: 1rem;
 }
 .contact-info { display: flex; flex-direction: column; gap: 1.5rem; }
-.contact-info__item { display: flex; gap: 1rem; align-items: flex-start; }
+.contact-info__item { display: flex; gap: 1rem; align-items: center; }
 .contact-info__icon { font-size: 1.4rem; flex-shrink: 0; margin-top: 0.1rem; }
 .contact-info__label { font-size: 0.78rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--secondary); margin-bottom: 0.2rem; }
 .contact-info__value { color: var(--text); font-size: 0.97rem; }
