@@ -178,7 +178,7 @@ ul { list-style: none; }
 .card:hover { box-shadow: 0 6px 28px rgba(63,79,60,0.15); transform: translateY(-2px); }
 .card__icon { font-size: 2rem; margin-bottom: 1rem; }
 
-/* ── ICON VARIANT B – Grüner Kreis (Bold) ── */
+/* ── ICON VARIANT B – Grüner Kreis (Filigran) ── */
 .icon-b {
   display: inline-flex;
   align-items: center;
@@ -191,6 +191,7 @@ ul { list-style: none; }
   margin-bottom: 1rem;
   flex-shrink: 0;
 }
+.icon-b svg { stroke-width: 1.5; }
 .card__title { margin-bottom: 0.6rem; }
 
 /* ─── GRID ─── */
